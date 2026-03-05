@@ -17,6 +17,8 @@
 ├── images/
 │   ├── mark-guerrero.jpg
 │   ├── tom-ford.jpg
+│   ├── icons.svg
+│   ├── people-office.jpg
 │   ├── camila-garcia.jpg
 │   ├── daniel-wilson.jpg
 │   ├── banking-app.jpg
