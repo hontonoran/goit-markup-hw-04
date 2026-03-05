@@ -50,12 +50,12 @@ img {
   overflow: hidden;
 }
 
+/* ======================== HEADER ======================== */
+
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow:
-    0 2px 1px rgba(46, 47, 66, 0.08),
-    0 1px 1px rgba(46, 47, 66, 0.16),
-    0 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08),
+    0 1px 1px rgba(46, 47, 66, 0.16), 0 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -162,13 +162,17 @@ img {
   color: #404bbf;
 }
 
+/* ======================== HERO ======================== */
+
 .section-hero {
   max-width: 1440px;
   margin: 0 auto;
   padding: 188px 0;
   background-color: #2e2f42;
-  background-image:
-    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -214,6 +218,8 @@ img {
   background-color: #404bbf;
 }
 
+/* ======================== FEATURES ======================== */
+
 .section-features {
   padding: 120px 0;
 }
@@ -254,6 +260,8 @@ img {
   color: #434455;
 }
 
+/* ======================== TEAM ======================== */
+
 .section-team {
   padding: 120px 0;
   background-color: #f4f4fd;
@@ -279,10 +287,8 @@ img {
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
   background-color: #ffffff;
-  box-shadow:
-    0 1px 6px rgba(46, 47, 66, 0.08),
-    0 1px 1px rgba(46, 47, 66, 0.16),
-    0 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08),
+    0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-info-block {
@@ -339,6 +345,8 @@ img {
   fill: #f4f4fd;
 }
 
+/* ======================== PORTFOLIO ======================== */
+
 .section-portfolio {
   padding: 120px 0;
 }
@@ -367,10 +375,8 @@ img {
 }
 
 .portfolio-item:hover {
-  box-shadow:
-    0 1px 6px rgba(46, 47, 66, 0.08),
-    0 1px 1px rgba(46, 47, 66, 0.16),
-    0 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08),
+    0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-img-wrapper {
@@ -419,6 +425,8 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* ======================== FOOTER ======================== */
 
 .page-footer {
   background-color: #2e2f42;
